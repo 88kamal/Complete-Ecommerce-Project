@@ -21,7 +21,7 @@ function Order() {
                     {
                       order.cartItems.map((item) => {
                         return (
-                          <div className="rounded-lg md:w-2/3">
+                          <div className="rounded-lg md:w-2/3" >
                             <div className="justify-between mb-6 rounded-lg bg-white p-6 shadow-md sm:flex sm:justify-start" style={{ backgroundColor: mode === 'dark' ? '#282c34' : '', color: mode === 'dark' ? 'white' : '', }}>
                               <img src={item.imageUrl} alt="product-image" className="w-full rounded-lg sm:w-40" />
                               <div className="sm:ml-4 sm:flex sm:w-full sm:justify-between">
