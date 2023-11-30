@@ -90,7 +90,7 @@ function Navbar() {
                     ""
                   )}
 
-                  {user?.user?.email === "knupadhyay784@gmail.com" ? (
+                  {user?.user?.email === "gramya.gupta@iiitb.ac.in" ? (
                     <div className="flow-root">
                       <Link
                         to={"/dashboard"}
@@ -132,9 +132,10 @@ function Navbar() {
                     >
                       <img
                         className="inline-block w-10 h-10 rounded-full"
-                        src="https://overreacted.io/static/profile-pic-c715447ce38098828758e525a1128b87.jpg"
-                        alt="Dan_Abromov"
+                        src="https://res.cloudinary.com/dit8zn89i/image/upload/v1699511220/samples/ecommerce/accessories-bag.jpg"
+                        alt="Home"
                       />{" "}
+                      HOME
                     </Link>
                   </div>
                 </div>
@@ -142,7 +143,7 @@ function Navbar() {
                 <div className="border-t border-gray-200 px-4 py-6">
                   <a href="#" className="-m-2 flex items-center p-2">
                     <img
-                      src="img/indiaflag.png"
+                      src="https://res.cloudinary.com/dit8zn89i/image/upload/v1700223915/prof_bxlxd4.webp"
                       alt=""
                       className="block h-auto w-5 flex-shrink-0"
                     />
@@ -150,7 +151,7 @@ function Navbar() {
                       className="ml-3 block text-base font-medium text-gray-900"
                       style={{ color: mode === "dark" ? "white" : "" }}
                     >
-                      INDIA
+                      annie blare
                     </span>
                     <span className="sr-only">, change currency</span>
                   </a>
@@ -216,7 +217,7 @@ function Navbar() {
                       className=" text-2xl font-bold text-black  px-2 py-1 rounded"
                       style={{ color: mode === "dark" ? "white" : "" }}
                     >
-                      CLOTHINGWITHANNIE
+                      STYLINGWITHANNIE
                     </h1>
                   </div>
                 </Link>
@@ -249,7 +250,7 @@ function Navbar() {
                     </Link>
                   )}
 
-                  {user?.user?.email === "knupadhyay784@gmail.com" ? (
+                  {user?.user?.email === "gramya.gupta@iiitb.ac.in" ? (
                     <Link
                       to={"/dashboard"}
                       className="text-sm font-medium text-gray-700 "
@@ -293,8 +294,8 @@ function Navbar() {
                   <a href="#" className="flex items-center text-gray-700 ">
                     <img
                       className="inline-block w-10 h-10 rounded-full"
-                      src="https://overreacted.io/static/profile-pic-c715447ce38098828758e525a1128b87.jpg"
-                      alt="Dan_Abromov"
+                      src="https://res.cloudinary.com/dit8zn89i/image/upload/v1699511220/samples/ecommerce/accessories-bag.jpg"
+                      // alt="HOME"
                     />
                   </a>
                 </div>
