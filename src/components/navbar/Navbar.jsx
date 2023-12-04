@@ -85,7 +85,7 @@ function Navbar() {
                     </a>
                   </div> : <div className="flow-root">
                     <Link to={'/signup'}  className="-m-2 block p-2 font-medium text-gray-900 cursor-pointer" style={{ color: mode === 'dark' ? 'white' : '', }}>
-                      Signup
+                      Sign Up
                     </Link>
                   </div>}
                   <div className="flow-root">
