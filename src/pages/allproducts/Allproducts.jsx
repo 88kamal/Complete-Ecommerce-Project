@@ -79,7 +79,7 @@ function Allproducts() {
                           alt="product"
                         />
                       </div>
-                      <div className="border-t-2 pt-4">
+                      <div className="border-t-2 pt-4 mx-2 mb-1">
                         <h2
                           className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                           style={{ color: mode === "dark" ? "white" : "" }}
